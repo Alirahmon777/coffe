@@ -1,6 +1,6 @@
 .check__block,
 .check__none {
-  // display: none;
+  display: none;
 }
 .check__block:checked ~ .modal {
   display: flex;

@@ -1,0 +1,77 @@
+.choose{
+
+
+  &__wrapper {
+    position: relative;
+  
+    height: 577px;
+    margin-top: 530px;
+    background: #2c343e;
+    border-radius: 10px;
+  }
+  &__title {
+    padding-top: 100px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #fefcf7;
+  }
+  &__text {
+    width: 528px;
+    margin: 0 auto;
+    margin-top: 32px;
+  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #fefcf7;
+  
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  &-card__list {
+    position: absolute;
+    bottom: -151px;
+    margin: 0 85px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &-card__item {
+    width: 350px;
+    height: 382px;
+    padding: 72px 48px 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    background: #0e8784;
+    border-radius: 8px;
+  }
+  &-card__item:last-child {
+    padding-top: 83px;
+  }
+  &-card__title {
+    margin-top: 56px;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #fefcf7;
+  }
+  &-card__item:last-child &-card__title {
+    margin-top: 67px;
+  }
+  &-card__desc {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fefcf7;
+    opacity: 0.8;
+  }
+  
+}
+

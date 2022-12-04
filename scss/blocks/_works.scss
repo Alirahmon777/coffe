@@ -1,0 +1,64 @@
+.work {
+  &__wrapper {
+    margin-top: 351px;
+    margin-left: 85px;
+  }
+  &--wrapper{
+    margin-top: 168px;
+  }
+  &__title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888f;
+  }
+
+  &__img {
+    margin: 80px 0 67px;
+  }
+
+  &-card__list {
+    display: flex;
+    align-items: center;
+    gap: 95px;
+  }
+
+  &-card__item {
+    width: 285px;
+  }
+
+  &-card__number {
+    font-family: "fraunces";
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fdd6ba;
+  }
+  &-card__img{
+    margin-top: 72px;
+  }
+  &-card__title {
+    width: 250px;
+    margin: 40px 0;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333d4b;
+  }
+
+  &-card--heading{
+    width: 285px;
+    margin-bottom: 24px;
+  }
+  &-card__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333d4b;
+  }
+
+  &__link {
+    position: relative;
+    bottom: -70px;
+  }
+}

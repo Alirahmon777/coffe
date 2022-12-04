@@ -1,0 +1,47 @@
+.collection {
+  &__wrapper {
+    margin: 136px 85px 0;
+  }
+
+  &__wrapper::before {
+    content: url(../img/background-img.png);
+  }
+
+  &__cards {
+    position: relative;
+  }
+
+  &__card {
+    position: absolute;
+    top: -70px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__item {
+    width: 255px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__icon {
+    padding-top: 15px;
+  }
+
+  &__title {
+    margin: 71px 0 24px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333d4b;
+  }
+}

@@ -1,0 +1,33 @@
+.footer {
+  &__wrapper {
+    padding: 47px 85px;
+    margin-top: 320px;
+    display: flex;
+    align-items: center;
+    gap: 103px;
+    background: #2c343e;
+  }
+  &--wrapper {
+    margin-top: 168px;
+  }
+  &__nav {
+    display: flex;
+    gap: 365px;
+  }
+
+  &__link:active {
+    color: #fefcf7;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+  }
+
+  &__group {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+}

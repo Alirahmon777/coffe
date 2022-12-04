@@ -1,0 +1,43 @@
+.hero {
+  
+  &__wrapper {
+    margin-top: 43px;
+    padding: 117px 0 117px 85px;
+    background-image: url(../img/coffee-img.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  }
+  &--bgimg{
+    padding: 137px 0 137px 85px;
+    background-image: url(../../img/Object.png);
+  }
+
+  &__title {
+    width: 493px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+  }
+
+  &--heading{
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  &__text {
+    width: 395px;
+    margin: 36px 0 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+
+  &--desc{
+    width: 445px;
+    margin: 24px 0 0;
+  }
+}

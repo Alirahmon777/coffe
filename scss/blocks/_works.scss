@@ -3,7 +3,7 @@
     margin-top: 351px;
     margin-left: 85px;
   }
-  &--wrapper{
+  &--wrapper {
     margin-top: 168px;
   }
   &__title {
@@ -34,7 +34,7 @@
     line-height: 72px;
     color: #fdd6ba;
   }
-  &-card__img{
+  &-card__img {
     margin-top: 72px;
   }
   &-card__title {
@@ -46,7 +46,7 @@
     color: #333d4b;
   }
 
-  &-card--heading{
+  &-card--heading {
     width: 285px;
     margin-bottom: 24px;
   }
@@ -60,5 +60,18 @@
   &__link {
     position: relative;
     bottom: -70px;
+  }
+  &__btn {
+    margin-top: 50px;
+  }
+  &__button {
+    margin-left: 350px;
+    padding: 10px 32px;
+    background: #0e8784;
+    border-radius: 6px;
+    transition: all 0.1s linear;
+    &:active {
+      background-color: #66d2cf;
+    }
   }
 }

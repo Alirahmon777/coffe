@@ -1,23 +1,23 @@
 .commitment {
-  .commitment__wrapper {
+  &__wrapper {
     margin-top: 168px;
     margin-left: 85px;
     display: flex;
     align-items: center;
   }
-  .commitment__img {
+  &__img {
     border-radius: 10px;
   }
-  .commitment__box{
+  &__box{
     margin-left: 125px;
   }
-  .commitment__title {
+  &__title {
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
     color: #333d4b;
   }
-  .commitment__text {
+  &__text {
     width: 538px;
     margin-top: 32px;
 

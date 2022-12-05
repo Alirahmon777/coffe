@@ -1,5 +1,4 @@
 .hero {
-  
   &__wrapper {
     margin-top: 43px;
     padding: 117px 0 117px 85px;
@@ -7,9 +6,9 @@
     background-repeat: no-repeat;
     border-radius: 10px;
   }
-  &--bgimg{
+  &--bgimg {
     padding: 137px 0 137px 85px;
-    background-image: url(../../img/Object.png);
+    background-image: url(../img/Object.png);
   }
 
   &__title {
@@ -20,7 +19,7 @@
     color: #fefcf7;
   }
 
-  &--heading{
+  &--heading {
     font-size: 40px;
     line-height: 48px;
   }
@@ -36,7 +35,7 @@
     opacity: 0.8;
   }
 
-  &--desc{
+  &--desc {
     width: 445px;
     margin: 24px 0 0;
   }

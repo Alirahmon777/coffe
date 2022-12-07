@@ -38,7 +38,12 @@
     border-radius: 50%;
     cursor: pointer;
   }
-
+  &__close:hover{
+    background-color: #66d2cf;
+  }
+  &__close:active{
+    background-color: #E2DEDB;
+  }
   &__title {
     font-weight: 900;
     font-size: 40px;
@@ -92,8 +97,12 @@
     border-radius: 6px;
     transition: all 0.1s linear;
 
-    &:active {
+    &:hover {
       background-color: #66d2cf;
+    }
+    &:active{
+      background-color: #E2DEDB;
+
     }
   }
 }

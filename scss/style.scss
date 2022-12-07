@@ -1,3 +1,4 @@
+@import "./blocks/mixins";
 @import "./blocks/global";
 @import "./blocks/header";
 @import "./blocks/hero";
@@ -8,7 +9,9 @@
 
 @import "./about-blocks/modal";
 @import "./about-blocks/commitment";
-@import "./about-blocks/quality.scss";
+@import "./about-blocks/quality";
+
+@import "./create-blocks/question";
 
 
 

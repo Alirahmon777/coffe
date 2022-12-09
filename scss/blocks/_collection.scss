@@ -3,10 +3,6 @@
     margin: 136px 85px 0;
   }
 
-  &__wrapper::before {
-    content: url(../img/background-img.png);
-  }
-
   &__cards {
     position: relative;
   }
@@ -35,6 +31,7 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
+    text-align: center;
   }
 
   &__text {
@@ -43,5 +40,76 @@
     line-height: 26px;
     text-align: center;
     color: #333d4b;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .collection {
+    &__wrapper {
+      min-width: 768px;
+      margin: 0;
+      margin-top: 144px;
+    }
+    &__bg {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+    &__card {
+      top: -50px;
+      left: 58px;
+      display: flex;
+      flex-direction: column;
+    }
+    &__item {
+      gap: 35px;
+
+      flex-direction: row;
+      text-align: start;
+    }
+    &__item div {
+      display: flex;
+      justify-content: left;
+      flex-direction: column;
+    }
+    &__icon {
+      padding-left: 21px;
+    }
+    &__title {
+      margin: 0;
+      text-align: start;
+      width: 283px;
+      margin-bottom: 24px;
+    }
+    &__text {
+      text-align: start;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .collection {
+    &__wrapper {
+      min-width: 300px;
+    }
+
+    &__card {
+      position: static;
+      margin-top: 30px;
+      align-items: center;
+    }
+
+    &__item {
+      flex-direction: column;
+    }
+
+    &__img {
+      width: 200px;
+    }
+
+    &__title,
+    &__text {
+      text-align: center;
+    }
   }
 }

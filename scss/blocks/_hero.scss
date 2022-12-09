@@ -10,7 +10,7 @@
     padding: 137px 0 137px 85px;
     background-image: url(../img/Object.png);
   }
-  &--createimg{
+  &--createimg {
     padding: 134px 0 134px 85px;
     background-image: url(../img/create-img.png);
   }
@@ -41,5 +41,44 @@
   &--desc {
     width: 445px;
     margin: 24px 0 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero {
+    &__wrapper {
+      padding: 104px 0 104px 58px;
+      background-position: center;
+      min-width: 768px;
+    }
+    &__title {
+      width: 329px;
+      font-size: 48px;
+      line-height: 48px;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero {
+    &__wrapper {
+      padding: 100px 24px;
+      min-width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      background-position: right;
+    }
+
+    &__title {
+      font-size: 40px;
+      text-align: center;
+    }
+    &__text {
+      width: 285px;
+      margin: 0;
+      margin-bottom: 15px;
+      text-align: center;
+    }
   }
 }

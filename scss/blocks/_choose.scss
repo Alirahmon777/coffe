@@ -1,10 +1,8 @@
-.choose{
-
-
+.choose {
   &__wrapper {
     position: relative;
-  
-    height: 577px;
+
+    height: 578px;
     margin-top: 530px;
     background: #2c343e;
     border-radius: 10px;
@@ -21,13 +19,13 @@
     width: 528px;
     margin: 0 auto;
     margin-top: 32px;
-  
+
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     color: #fefcf7;
-  
+
     mix-blend-mode: normal;
     opacity: 0.8;
   }
@@ -46,7 +44,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-  
+
     background: #0e8784;
     border-radius: 8px;
   }
@@ -72,6 +70,93 @@
     color: #fefcf7;
     opacity: 0.8;
   }
-  
+}
+@media only screen and (max-width: 1024px) {
+  .choose {
+    &__wrapper {
+      min-width: 768px;
+      margin-top: 963px;
+    }
+    &__title {
+      font-size: 32px;
+    }
+    &-card__list {
+      position: static;
+      margin-top: 70px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    &-card__item,
+    &-card__item:last-child {
+      height: auto;
+      width: 573px;
+      padding: 41px 48px 41px 70px;
+
+      display: flex;
+      flex-direction: row;
+      gap: 55px;
+    }
+    &-card__item div {
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+    }
+    &-card__img {
+      width: 56px;
+    }
+    &-card__title,
+    &-card__item:last-child &-card__title {
+      margin: 0;
+      margin-bottom: 16px;
+      width: 344px;
+      text-align: start;
+    }
+
+    &-card__desc {
+      font-size: 15px;
+      text-align: left;
+    }
+  }
 }
 
+@media only screen {
+  .choose {
+    &__wrapper {
+      height: 902px;
+      min-width: 300px;
+      margin-top: 120px;
+    }
+
+    &__text {
+      max-width: 290px;
+      text-align: center;
+    }
+
+    &-card__item,
+    &-card__item:last-child {
+      height: auto;
+      width: 279px;
+      padding: 72px 12px 51px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 55px;
+    }
+
+    &-card__title,
+    &-card__item:last-child &-card__title {
+      margin: 0;
+      margin-bottom: 16px;
+      width: 279px;
+      text-align: center;
+    }
+
+    &-card__desc {
+      width: 200px;
+      margin: 0 auto;
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+}

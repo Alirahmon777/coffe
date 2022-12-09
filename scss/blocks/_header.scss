@@ -44,4 +44,30 @@
   &__link:active {
     color: #83888f;
   }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .hamburger span {
+    width: 16px;
+    height: 3px;
+    background: #333d4b;
+    border-radius: 1.5px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header {
+		&__logo {
+			width: 163px;
+		}
+		&__nav {
+			display: none;
+		}
+		.hamburger {
+			display: flex;
+		}
+	}
 }

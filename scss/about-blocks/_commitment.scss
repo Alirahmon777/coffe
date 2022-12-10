@@ -8,7 +8,7 @@
   &__img {
     border-radius: 10px;
   }
-  &__box{
+  &__box {
     margin-left: 125px;
   }
   &__title {
@@ -27,5 +27,47 @@
     color: #333d4b;
     mix-blend-mode: normal;
     opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .commitment {
+    &__wrapper {
+      position: relative;
+      margin: 0;
+      margin-top: 144px;
+      align-items: start;
+    }
+
+    &__img {
+      position: absolute;
+      left: -45px;
+      clip-path: inset(0 20% 9% 17% round 10px);
+    }
+
+    &__box {
+      margin-left: 380px;
+    }
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__text {
+      font-size: 15px;
+      width: 339px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .commitment {
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__img {
+      clip-path: inset(0 14% 23% 13% round 10px);
+    }
   }
 }

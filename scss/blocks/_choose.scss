@@ -120,7 +120,7 @@
   }
 }
 
-@media only screen {
+@media only screen and (max-width:767px) {
   .choose {
     &__wrapper {
       height: 902px;

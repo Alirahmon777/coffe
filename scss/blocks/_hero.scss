@@ -47,9 +47,9 @@
 @media only screen and (max-width: 1024px) {
   .hero {
     &__wrapper {
+      min-width: 768px;
       padding: 104px 0 104px 58px;
       background-position: center;
-      min-width: 768px;
     }
     &__title {
       width: 329px;
@@ -61,6 +61,7 @@
 @media only screen and (max-width: 767px) {
   .hero {
     &__wrapper {
+      min-width: 300px;
       padding: 100px 24px;
       min-width: 300px;
       display: flex;

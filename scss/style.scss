@@ -1,5 +1,6 @@
 @import "./blocks/mixins";
 @import "./blocks/global";
+@import "./blocks/menu";
 @import "./blocks/header";
 @import "./blocks/hero";
 @import "./blocks/collection";
@@ -7,14 +8,8 @@
 @import "./blocks/works";
 @import "./blocks/footer";
 
-@import "./about-blocks/modal";
 @import "./about-blocks/commitment";
 @import "./about-blocks/quality";
 
+@import "./create-blocks/modal";
 @import "./create-blocks/question";
-
-
-
-
-
-

@@ -36,14 +36,52 @@
               </li>
             </ul>
           </nav>
-          <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
+          <div class="menu__box">
+            <input
+              name="checked"
+              id="menu__enabled"
+              class="menu__block"
+              type="radio"
+            />
+            <input
+              name="checked"
+              id="menu__disabled"
+              class="menu__none"
+              type="radio"
+            />
+            <label class="menu__hamburger" for="menu__enabled">
+              <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </label>
+            <label class="menu__icon" for="menu__disabled">
+              <img src="./img/x.svg" alt="menu__disabled" />
+            </label>
+            <!-- menu -->
+      
+            <div class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="./index.html">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="./about.html">About Us</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="./create.html">Create Your Plan</a>
+                </li>
+              </ul>
+            </div>
+      
+            <!-- menu -->
           </div>
         </div>
       </div>
+
     </header>
+
     <main class="main">
       <section class="hero">
         <div class="container">

@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Fraunces";
+  background-color: #fefcf7;
 }
 a {
   text-decoration: none;
@@ -23,7 +24,6 @@ span {
 }
 .container {
   width: 1280px;
-  max-width: 100%;
   margin: 0 auto;
   padding: 0;
 }
@@ -52,7 +52,6 @@ span {
   line-height: 15px;
   letter-spacing: 0.923077px;
   color: #83888f;
-
 }
 .button {
   font-family: "Fraunces";
@@ -62,4 +61,16 @@ span {
   color: #fefcf7;
   border: none;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
 }

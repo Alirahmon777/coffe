@@ -1,6 +1,13 @@
 .collection {
   &__wrapper {
-    margin: 136px 85px 0;
+    min-width: 1024px;
+    margin-top: 136px;
+  }
+
+  &__bg{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: block;
   }
 
   &__cards {
@@ -10,16 +17,22 @@
   &__card {
     position: absolute;
     top: -70px;
+    margin-left: 80px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 30px;
   }
 
   &__item {
-    width: 255px;
+    max-width: 255px;
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+
+  &__img{
+    max-width: 255px;
   }
 
   &__icon {
@@ -49,6 +62,7 @@
       min-width: 768px;
       margin: 0;
       margin-top: 144px;
+      
     }
     &__bg {
       width: 100%;
@@ -78,11 +92,12 @@
     &__title {
       margin: 0;
       text-align: start;
-      width: 283px;
+      width: 282px;
       margin-bottom: 24px;
     }
     &__text {
       text-align: start;
+      font-size: 15px;
     }
   }
 }
@@ -93,8 +108,14 @@
       min-width: 300px;
     }
 
+    &__cards{
+      position: static;
+      margin: 0 auto;
+    }
+
     &__card {
       position: static;
+      margin: 0;
       margin-top: 30px;
       align-items: center;
     }
@@ -104,7 +125,7 @@
     }
 
     &__img {
-      width: 200px;
+     width: 200px;
     }
 
     &__title,

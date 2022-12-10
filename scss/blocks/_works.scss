@@ -92,7 +92,7 @@
   }
 
   &-card--heading {
-    width: 285px;
+    max-width: 285px;
     margin-bottom: 24px;
   }
 
@@ -125,24 +125,40 @@
       margin-top: 434px;
       margin-left: 60px;
     }
+
+    &--wrapper {
+      margin: 144px 0 0 10px;
+    }
+
     &__line {
       max-width: 497px;
     }
+
     &-card__list {
+      min-width: 700px;
       gap: 10px;
     }
+
     &-card__item {
-      max-width: 223px;
+      max-width: 248px;
     }
+
     &-card__title {
+      width: 230px;
       font-size: 28px;
     }
+
+    &-card--heading {
+      width: 250px;
+    }
+
     &-card__desc {
       margin: 0;
       width: 198px;
       font-size: 15px;
       line-height: 25px;
     }
+
     &-card__item:nth-child(2) &-card__desc {
       width: 215px;
     }
@@ -157,6 +173,9 @@
       min-width: 300px;
     }
 
+    &--wrapper {
+      margin-top: 120px;
+    }
     &__line,
     &__circle {
       display: none;
@@ -181,6 +200,10 @@
       gap: 56px;
     }
 
+    &--list{
+      margin: 0;
+    }
+
     &-card__item {
       width: 279px;
       display: flex;
@@ -199,7 +222,7 @@
       text-align: center;
     }
 
-    &__link{
+    &__link {
       margin: 0 auto;
     }
   }

@@ -38,11 +38,11 @@
     border-radius: 50%;
     cursor: pointer;
   }
-  &__close:hover{
+  &__close:hover {
     background-color: #66d2cf;
   }
-  &__close:active{
-    background-color: #E2DEDB;
+  &__close:active {
+    background-color: #e2dedb;
   }
   &__title {
     font-weight: 900;
@@ -100,9 +100,52 @@
     &:hover {
       background-color: #66d2cf;
     }
-    &:active{
-      background-color: #E2DEDB;
+    &:active {
+      background-color: #e2dedb;
+    }
+  }
+}
 
+@media only screen and (max-width: 767px) {
+  .modal {
+    &__wrapper {
+      height: 597px;
+    }
+    &__header {
+      width: 327px;
+      padding: 28px 24px 28px;
+    }
+
+    &__close {
+      top: -2.5px;
+      padding: 5px 10px;
+    }
+
+    &__title {
+      font-size: 28px;
+    }
+
+    &__body {
+      width: 327px;
+      padding: 40px 24px 24px;
+    }
+
+    &__desc {
+      margin: 7px 0 24px;
+      font-size: 15px;
+      line-height: 25px;
+    }
+
+    &-box__text {
+      display: none;
+    }
+
+    &__btn {
+      padding: 24px 32px;
+    }
+
+    &__btn::after {
+      content: " - $14.00 / mo";
     }
   }
 }

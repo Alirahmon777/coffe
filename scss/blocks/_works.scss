@@ -126,8 +126,16 @@
       margin-left: 60px;
     }
 
+    
     &--wrapper {
       margin: 144px 0 0 10px;
+    }
+
+    &--bgcolor {
+      min-width: 768px;
+      margin: 0;
+      margin-top: 144px;
+      padding: 97px 40px 70px;
     }
 
     &__line {
@@ -176,6 +184,12 @@
     &--wrapper {
       margin-top: 120px;
     }
+
+    &--bgcolor{
+      margin-top: 120px;
+      padding: 79px 24px;
+    }
+
     &__line,
     &__circle {
       display: none;
@@ -211,6 +225,10 @@
       align-items: center;
     }
 
+    &--item{
+      min-width: 300px;
+    }
+
     &-card__title {
       min-width: 315px;
       text-align: center;
@@ -218,7 +236,7 @@
 
     &-card__desc,
     &-card__item:nth-child(2) &-card__desc {
-      width: 319px;
+      min-width: 318.1px;
       text-align: center;
     }
 
